@@ -6,7 +6,7 @@
       <p v-else>Данных нет</p>
     </div>
     <div class="kids-data">
-      <h3>Дети</h3>
+      <h3 class="kids">Дети</h3>
       <div v-for="kid in kidsStore.kids" class="kid">{{ kid.name }}, {{ kid.age }} лет</div>
     </div>
   </div>
@@ -50,6 +50,7 @@ const isVisible = computed(() => {
   font-weight: 700;
   padding: 10px 20px;
   background-color: #f1f1f1;
+  border-radius: 5px;
 }
 
 .kids-data {
@@ -57,5 +58,11 @@ const isVisible = computed(() => {
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+}
+
+.kids {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
 }
 </style>

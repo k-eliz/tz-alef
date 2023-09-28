@@ -1,16 +1,14 @@
-# Тестовое задание для inetstudio
+# Тестовое задание для Alef
 
-Выполненное тестовое задание для inetstudio от [Полиенко В. С.](https://github.com/Kasaklalita) Условие задания доступно [здесь](https://github.com/inetstudio/vue-js-interview/blob/master/README.md).
+Выполненное тестовое задание для Alef от [Кулинич Е.А.](https://github.com/k-eliz)
 
-Приложение построено на Vue3 + Vite + TS. Также использовались:
+Приложение построено на Vue3 + Vite + JS. Также использовались:
 
 - pinia в качестве хранилища
+- vue-router
 - eslint в качестве линтера
 - prettier для форматирования кода
-- tailwind в качестве CSS-фреймворка
-- Docker для сборки
 
-Используются husky pre-commit хуки, перед каждым коммитом запускается линтер, prettier и tsc-check.
 
 ## Запуск через Docker
 
